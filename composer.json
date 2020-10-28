@@ -1,0 +1,106 @@
+{
+	"name":			"ronnyjss/utilitario",
+	"version":		"1.0.0",
+	"description":	"Utilitarios | Biblioteca PHP para desenvolvimento ágil.",
+	"homepage":		"https://jss.art.br",
+	"license":		"AGPL-3.0",
+	"type":			"library",
+	"time":			"2020-10-28",
+	"authors": [
+		{
+			"name":		"RonnyJSS",
+			"role":		"developer",
+			"email":	"ronny@jss.art.br",
+			"homepage":	"https://www.jss.art.br"
+		}
+	],
+	"require": {
+		"ext-bcmath":			"*",
+		"ext-bz2":				"*",
+		"ext-calendar":			"*",
+		"ext-ctype":			"*",
+		"ext-curl":				"*",
+		"ext-date":				"*",
+		"ext-dom":				"*",
+		"ext-exif":				"*",
+		"ext-fileinfo":			"*",
+		"ext-filter":			"*",
+		"ext-ftp":				"*",
+		"ext-gd":				"*",
+		"ext-gettext":			"*",
+		"ext-gmp":				"*",
+		"ext-hash":				"*",
+		"ext-iconv":			"*",
+		"ext-imagick":			"*",
+		"ext-imap":				"*",
+		"ext-intl":				"*",
+		"ext-ionCube-Loader":	"*",
+		"ext-json":				"*",
+		"ext-libxml":			"*",
+		"ext-mbstring":			"*",
+		"ext-mysqli":			"*",
+		"ext-mysqlnd":			"*",
+		"ext-odbc":				"*",
+		"ext-openssl":			"*",
+		"ext-pcntl":			"*",
+		"ext-pcre":				"*",
+		"ext-PDO":				"*",
+		"ext-pdo_mysql":		"*",
+		"ext-PDO_ODBC":			"*",
+		"ext-pdo_pgsql":		"*",
+		"ext-pdo_sqlite":		"*",
+		"ext-pgsql":			"*",
+		"ext-Phar":				"*",
+		"ext-posix":			"*",
+		"ext-pspell":			"*",
+		"ext-readline":			"*",
+		"ext-Reflection":		"*",
+		"ext-session":			"*",
+		"ext-SimpleXML":		"*",
+		"ext-soap":				"*",
+		"ext-sockets":			"*",
+		"ext-SourceGuardian":	"*",
+		"ext-SPL":				"*",
+		"ext-sqlite3":			"*",
+		"ext-tidy":				"*",
+		"ext-tokenizer":		"*",
+		"ext-xml":				"*",
+		"ext-xmlreader":		"*",
+		"ext-xmlrpc":			"*",
+		"ext-xmlwriter":		"*",
+		"ext-xsl":				"*",
+		"ext-zip":				"*",
+		"ext-zlib":				"*",
+		"lib-curl":				"*",
+		"lib-iconv":			"*",
+		"lib-ICU":				"*",
+		"lib-imagick":			"*",
+		"lib-libxml":			"*",
+		"lib-openssl":			"*",
+		"lib-pcre":				"*",
+		"lib-xsl":				"*",
+		"php":					"^7.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"ronnyjss\\utilitario\\": "src"
+		},
+		"classmap": [],
+		"files": []
+	},
+	"config": {
+		"process-timeout":	120,
+		"github-protocols":	["git", "https"]
+	},
+	"scripts": {
+		"i74": [
+			"/usr/local/bin/ea-php74 /opt/cpanel/composer/bin/composer install"
+		],
+		"u74": [
+			"/usr/local/bin/ea-php74 /opt/cpanel/composer/bin/composer update"
+		],
+		"extensoes": [
+			"/usr/local/bin/ea-php74 /opt/cpanel/composer/bin/composer show --platform"
+		]
+	}
+}
