@@ -60,7 +60,7 @@
 		"lib-openssl":			"*",
 		"lib-pcre":				"*",
 		"lib-xsl":				"*",
-		"php":					"^7.4",
+		"php":					"^7.4"
 	},
 	"autoload": {
 		"psr-4": {
